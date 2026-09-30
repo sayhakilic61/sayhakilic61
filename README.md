@@ -18,7 +18,19 @@
 🛡️ Aynı zamanda **güvenlik operasyonları** (SOC/SIEM, MITRE ATT&CK) ve **iş sürekliliği / felaket kurtarma** (yedekleme, DR, ISO 22301) alanlarına odaklanıyorum.
 🐳 30+ container'lık kendi ev laboratuvarımı işletiyorum; öğrendiğim her şeyi *gerçekten çalışan* sistemler kurarak sınıyorum.
 
-<sub>🇬🇧 Payments middleware/DevOps engineer working across ISO 8583, card switching, EFT/FAST and fraud — also focused on security operations (SOC/SIEM, MITRE ATT&CK) and business continuity / disaster recovery. I run a 30+ container home lab and learn by building systems that actually run.</sub>
+<sub>🌍 Payments middleware/DevOps engineer working across ISO 8583, card switching, EFT/FAST and fraud — also focused on security operations (SOC/SIEM, MITRE ATT&CK) and business continuity / disaster recovery. I run a 30+ container home lab and learn by building systems that actually run.</sub>
+
+---
+
+### 🔥 Son proje / Latest
+
+<a href="https://github.com/sayhakilic61/nas-anomaly-sentinel">
+  <img src="https://raw.githubusercontent.com/sayhakilic61/nas-anomaly-sentinel/main/docs/01-dashboard-kritik.png" alt="NAS Anomaly Sentinel" width="100%">
+</a>
+
+**[NAS Anomaly Sentinel](https://github.com/sayhakilic61/nas-anomaly-sentinel)**: Evdeki NAS'ta fidye yazılımını ilk taramada yakalayan erken uyarı sistemi. 30 günlük normal davranışı saat bazında öğrenir, meşru kopyalamayı şifrelemeden ayırır, e-posta + Zabbix ile alarm verir. Gerçek NAS'ta test edildi: %0,03 CPU, 57 MB RAM.
+
+<sub>🌍 Early ransomware warning for home NAS: learns a 30-day same-hour baseline, tells legit bulk copies from encryption, alerts via e-mail and Zabbix. Tested on real hardware.</sub>
 
 ---
 
@@ -46,6 +58,7 @@
 **Güvenlik & Gözlemlenebilirlik**
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-C0392B)
 ![Splunk](https://img.shields.io/badge/Splunk-000000?logo=splunk&logoColor=white)
+![Zabbix](https://img.shields.io/badge/Zabbix-D40000?logo=zabbix&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
 
@@ -60,6 +73,7 @@
 
 | Proje | Ne yapar | Teknoloji |
 |---|---|---|
+| 🚨 [**nas-anomaly-sentinel**](https://github.com/sayhakilic61/nas-anomaly-sentinel) | Fidye yazılımı **erken uyarı** sistemi — NAS'ın 30 günlük normalini öğrenir, şifreleme desenini ilk taramada yakalar, e-posta + Zabbix alarmı | Python · Docker · Zabbix |
 | 💳 [**iso8583-switch**](https://github.com/sayhakilic61/iso8583-switch) | Protokol seviyesinde doğru **ISO 8583** ödeme switch simülatörü — MTI, bitmap, DE39, canlı mesaj çözümleyici | Python · asyncio |
 | 🧮 [**fraud-detection**](https://github.com/sayhakilic61/fraud-detection) | Gerçek zamanlı **fraud skorlama** — akış üzerinden velocity, imkânsız seyahat, tutar anomalisi, açıklanabilir karar | Redis Streams · FastAPI |
 | 🛡️ [**soc-triage**](https://github.com/sayhakilic61/soc-triage) | **SOC alarm triyaj** motoru — varlık kritikliği + IOC + **MITRE ATT&CK** ile P1–P4 önceliklendirme | Redis Streams · FastAPI |
@@ -74,7 +88,7 @@
 ### 📊 GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sayhakilic61&show_icons=true&hide_border=true&title_color=0B2E52&icon_color=C79A3B" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sayhakilic61&show_icons=true&hide_border=true&hide_rank=true&title_color=0B2E52&icon_color=C79A3B" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sayhakilic61&layout=compact&hide_border=true&title_color=0B2E52" />
 </p>
 
