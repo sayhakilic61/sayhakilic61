@@ -22,18 +22,6 @@
 
 ---
 
-### 🔥 Son proje / Latest
-
-<a href="https://github.com/sayhakilic61/nas-anomaly-sentinel">
-  <img src="https://raw.githubusercontent.com/sayhakilic61/nas-anomaly-sentinel/main/docs/01-dashboard-kritik.png" alt="NAS Anomaly Sentinel" width="100%">
-</a>
-
-**[NAS Anomaly Sentinel](https://github.com/sayhakilic61/nas-anomaly-sentinel)**: Evdeki NAS'ta fidye yazılımını ilk taramada yakalayan erken uyarı sistemi. 30 günlük normal davranışı saat bazında öğrenir, meşru kopyalamayı şifrelemeden ayırır, e-posta + Zabbix ile alarm verir. Gerçek NAS'ta test edildi: %0,03 CPU, 57 MB RAM.
-
-<sub>🌍 Early ransomware warning for home NAS: learns a 30-day same-hour baseline, tells legit bulk copies from encryption, alerts via e-mail and Zabbix. Tested on real hardware.</sub>
-
----
-
 ### 🛠️ Teknolojiler / Stack
 
 **Diller**
@@ -73,7 +61,7 @@
 
 | Proje | Ne yapar | Teknoloji |
 |---|---|---|
-| 🚨 [**nas-anomaly-sentinel**](https://github.com/sayhakilic61/nas-anomaly-sentinel) | Fidye yazılımı **erken uyarı** sistemi — NAS'ın 30 günlük normalini öğrenir, şifreleme desenini ilk taramada yakalar, e-posta + Zabbix alarmı | Python · Docker · Zabbix |
+| 🚨 [**nas-anomaly-sentinel**](https://github.com/sayhakilic61/nas-anomaly-sentinel) 🆕 | Fidye yazılımı **erken uyarı** sistemi — NAS'ın 30 günlük normalini öğrenir, şifreleme desenini ilk taramada yakalar, e-posta + Zabbix alarmı | Python · Docker · Zabbix |
 | 💳 [**iso8583-switch**](https://github.com/sayhakilic61/iso8583-switch) | Protokol seviyesinde doğru **ISO 8583** ödeme switch simülatörü — MTI, bitmap, DE39, canlı mesaj çözümleyici | Python · asyncio |
 | 🧮 [**fraud-detection**](https://github.com/sayhakilic61/fraud-detection) | Gerçek zamanlı **fraud skorlama** — akış üzerinden velocity, imkânsız seyahat, tutar anomalisi, açıklanabilir karar | Redis Streams · FastAPI |
 | 🛡️ [**soc-triage**](https://github.com/sayhakilic61/soc-triage) | **SOC alarm triyaj** motoru — varlık kritikliği + IOC + **MITRE ATT&CK** ile P1–P4 önceliklendirme | Redis Streams · FastAPI |
